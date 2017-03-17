@@ -1,20 +1,24 @@
 {
-    "name": "good-deal",
-    "version": "1.0.0",
-    "description": "\"Is this a good deal?\"",
-    "main": "app.js",
-    "scripts": {
-        "start": "nodemon --debug ./app.js"
-    },
-    "author": "Franck Montaigne",
-    "license": "UNLICENSED",
-    "dependencies": {
-        "cheerio": "^0.22.0",
-        "ejs": "^2.5.5",
-        "express": "^4.14.0",
-        "request": "^2.79.0"
-    },
-    "devDependencies": {
-        "nodemon": "^1.11.0"
-    }
+  "name": "carrez",
+  "version": "1.0.0",
+  "description": "> node.js workshop based on real estate",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sdfr/carrez.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sdfr/carrez/issues"
+  },
+  "homepage": "https://github.com/sdfr/carrez#readme",
+  "dependencies": {
+    "express": "latest",
+    "request": "latest",
+    "cheerio": "latest"
+  }
 }

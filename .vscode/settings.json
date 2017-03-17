@@ -1,9 +1,0 @@
-// Place your settings in this file to overwrite default and user settings.
-{
-    "editor.tabSize": 4,
-    "editor.detectIndentation": false,
-    "editor.formatOnType": true,
-    "editor.formatOnSave": true,
-    "javascript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyParenthesis": true,
-    "javascript.format.insertSpaceAfterOpeningAndBeforeClosingTemplateStringBraces": true
-}

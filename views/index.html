@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Projet Carrez</title>
+    <link rel="stylesheet" href="/css/style.css" />
+</head>
+
+<body>
+
+    </br>
+    <h1>Faites-vous une bonne affaire?</h1>
+    <br/>
+
+    <form id="testForm" method="POST" action="/">
+        <fieldset>
+            <i>Naviguez dans la liste des annonces, puis clic droit sur le lien, puis copiez le lien</i>
+            <br/>
+            <br/>
+            <input id="test" name="url_lbc" type="text" placeholder="Collez l'adresse d'une annonce leboncoin" size="100" required="" />
+            <input id="submitButton" type="submit" classe="button" value="Tester" />    
+        <%
+        if(locals.msg) {
+        %>
+        <div class="msg-info">
+            <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span> 
+            <b>
+            <%- msg %>
+            </b>
+        </div>
+        <%
+        }
+        %>
+        </fieldset>
+    </form>
+    </br>
+</body>
+
+<iframe src="<%= url %>" width="1024" height="700"></iframe>
+
+</html>
